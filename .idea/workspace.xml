@@ -4,9 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="Добавлены все необходимые файлы из примера готового проета">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/create_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/api/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/user_repo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/schemas/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +60,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/emil/PycharmProjects/agencyBackend"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,11 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729624223219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Постановка задач в файле README.md">
+      <option name="closed" value="true" />
+      <created>1729627109692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729627109692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="Постановка задач в файле README.md" />
+    <MESSAGE value="Добавлены все необходимые файлы из примера готового проета" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены все необходимые файлы из примера готового проета" />
   </component>
 </project>
