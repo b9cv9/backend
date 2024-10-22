@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="добавлен poetry и подключена бд">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="добавлен requirements.txt">
+      <change afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729628258383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="добавлен requirements.txt">
+      <option name="closed" value="true" />
+      <created>1729629173519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729629173519</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +124,7 @@
     <MESSAGE value="Постановка задач в файле README.md" />
     <MESSAGE value="Добавлены все необходимые файлы из примера готового проета" />
     <MESSAGE value="добавлен poetry и подключена бд" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен poetry и подключена бд" />
+    <MESSAGE value="добавлен requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен requirements.txt" />
   </component>
 </project>
