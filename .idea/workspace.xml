@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="добавлен requirements.txt">
-      <change afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
+    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="Начал настраивать проект для миграции бд">
+      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,13 +42,16 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2nnzzenOSSLzI3UrIbgTEjou2KP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.env.executor": "Run",
     "Python.factory.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,6 +62,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -116,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729629173519</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Начал настраивать проект для миграции бд">
+      <option name="closed" value="true" />
+      <created>1729629777908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729629777908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +148,7 @@
     <MESSAGE value="Добавлены все необходимые файлы из примера готового проета" />
     <MESSAGE value="добавлен poetry и подключена бд" />
     <MESSAGE value="добавлен requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен requirements.txt" />
+    <MESSAGE value="Начал настраивать проект для миграции бд" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал настраивать проект для миграции бд" />
   </component>
 </project>
