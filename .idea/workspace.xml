@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="Добавлены все необходимые файлы из примера готового проета">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/create_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/create_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/api/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/user_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/schemas/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +39,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.factory.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/emil/PycharmProjects/agencyBackend"
@@ -109,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729627109692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены все необходимые файлы из примера готового проета">
+      <option name="closed" value="true" />
+      <created>1729627462556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729627462556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
