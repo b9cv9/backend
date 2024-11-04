@@ -1,20 +1,19 @@
 from fastapi import APIRouter
-
-from project.infrastructure.postgres.repository.user_repo import UserRepository
+from project.infrastructure.postgres.repository.apartment_repo import ApartmentRepository
 from project.infrastructure.postgres.database import PostgresDatabase
-from project.schemas.user import UserSchema
+from project.schemas.apartment import ApartmentSchema
 
 
 router = APIRouter()
 
 
-@router.get("/all_users", response_model=list[UserSchema])
-async def get_all_users() -> list[UserSchema]:
-    user_repo = UserRepository()
+@router.get("/all_apartments", response_model=list[ApartmentSchema])
+async def get_all_apartments() -> list[ApartmentSchema]:
+    apartment_repo = ApartmentRepository()
     database = PostgresDatabase()
 
     async with database.session() as session:
-        await user_repo.check_connection(session=session)
-        all_users = await user_repo.get_all_users(session=session)
+        await apartment_repo.check_connection(session=session)
+        all_apartments = await apartment_repo.get_all_apartments(session=session)
 
-    return all_users
+    return all_apartments

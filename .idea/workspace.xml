@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="Начал настраивать проект для миграции бд">
-      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+    <list default="true" id="f9ca586c-5950-4b6c-88ea-24bca323cb1a" name="Changes" comment="добавлены models и schemes, небольшие изменения кода других файлов">
+      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/apartment_repo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/schemas/apartment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/schemas/owner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/schemas/sales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/create_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/create_user_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/api/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/api/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/core/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/infrastructure/postgres/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/infrastructure/postgres/repository/user_repo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/schemas/user.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "b9cv9"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;b9cv9&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/b9cv9/backend.git",
-    "accountId": "f014aa30-87c7-4e7d-b280-c55ce5248a6e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/b9cv9/backend.git&quot;,
+    &quot;accountId&quot;: &quot;f014aa30-87c7-4e7d-b280-c55ce5248a6e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2nnzzenOSSLzI3UrIbgTEjou2KP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,16 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.env.executor": "Run",
-    "Python.factory.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/emil/PycharmProjects/agencyBackend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.env.executor&quot;: &quot;Run&quot;,
+    &quot;Python.factory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/emil/PycharmProjects/agencyBackend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -139,8 +159,19 @@
       <option name="project" value="LOCAL" />
       <updated>1729629777908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Сгенерирована миграция">
+      <option name="closed" value="true" />
+      <created>1729633221477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729633221477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="docker-compose.yml" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
@@ -149,6 +180,8 @@
     <MESSAGE value="добавлен poetry и подключена бд" />
     <MESSAGE value="добавлен requirements.txt" />
     <MESSAGE value="Начал настраивать проект для миграции бд" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал настраивать проект для миграции бд" />
+    <MESSAGE value="Сгенерирована миграция" />
+    <MESSAGE value="добавлены models и schemes, небольшие изменения кода других файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены models и schemes, небольшие изменения кода других файлов" />
   </component>
 </project>
