@@ -12,6 +12,7 @@ class Apartment(Base):
     square_meters: Mapped[float] = mapped_column(nullable=False)
     status_id: Mapped[int] = mapped_column(nullable=False)
     owner_price: Mapped[float] = mapped_column(nullable=False)
+    owner_id: Mapped[int] = mapped_column(nullable=False, server_default='-1')
 #
 #     owner_id: Mapped[int] = mapped_column(ForeignKey("owners.id"))
 #     owner = relationship("Owner", back_populates="apartments")
