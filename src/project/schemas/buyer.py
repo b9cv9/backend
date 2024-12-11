@@ -1,9 +1,8 @@
+from pydantic import BaseModel
 from datetime import date
 
-from pydantic import BaseModel
-
-class OwnerSchema(BaseModel):
-    owners_id: int
+class BuyerSchema(BaseModel):
+    id: int
     username: str
     password: str
     name: str
